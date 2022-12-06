@@ -1,0 +1,70 @@
+
+.Hero_heroContent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 818px;
+    width: 100vw;
+    background-image: url(../assets/hero-bg-wave\ 1.e3008e7a.svg);   
+     background-position: 50%;
+    background-size: cover;
+   
+}
+
+.Hero_heroContent h1{
+    font-family: "Montserrat";
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+    font-weight: 600;
+    font-size: 70px;
+    /* line-height: 72px; */
+    width: 1087px;
+   
+}
+
+
+.Hero_heroContent p{
+    font-weight: 500;
+    font-size: 22px;
+    /* line-height: 28px; */
+    letter-spacing: 1px;
+    font-family: "Montserrat";
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 32px;
+   
+}
+
+
+.Hero_heroContent div a{ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    border-radius: 6px;
+    text-decoration: none;
+    color: #fff;
+    width: 215px;
+    height: 56px;
+    box-shadow: 0 2px 20px rgb(0 0 0 / 9%);
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Hero_heroContent>div>a:first-of-type {
+    background: #fff;
+    border-radius: 6px;
+    color: #645aff;
+}
